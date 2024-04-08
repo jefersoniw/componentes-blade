@@ -7,11 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Document</title>
+    <title>{{ $titulo }}</title>
 </head>
 
 <body>
-    <x-header />
+    <x-header class="fs-5 mt-2" title="header" />
+
+    <div class="menu">
+        @if (!empty($menu))
+            {{ $menu }}
+        @endif
+    </div>
 
     <div class="container">
         {{ $slot }}
