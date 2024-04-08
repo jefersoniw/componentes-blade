@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <x-header />
+    <x-header class="fs-5 mt-2" title="header" />
 
     <div class="container">
         {{ $slot }}
