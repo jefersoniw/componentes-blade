@@ -1,5 +1,3 @@
-@extends('layout')
-
-@section('content')
-    <h2>User create</h2>
-@endsection
+<x-layout>
+    <h2>User Create</h2>
+</x-layout>
