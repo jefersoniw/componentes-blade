@@ -1,7 +1,11 @@
 <x-layout>
 
-    <x-slot name="header">
-        <h2>Header com slot nomeado</h2>
+    <x-slot:menu>
+        <ul>
+            <li>teste</li>
+            <li>teste</li>
+            <li>teste</li>
+        </ul>
     </x-slot>
 
     <h2>Home</h2>

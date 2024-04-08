@@ -1,6 +1,11 @@
-<x-layout>
-    <x-slot name="header">
-        <h2>Header com slot nomeado</h2>
+<x-layout titulo="Create User Page">
+
+    <x-slot name="menu">
+        <ul>
+            <li>teste2</li>
+            <li>teste2</li>
+            <li>teste2</li>
+        </ul>
     </x-slot>
 
     <h2>User Create</h2>
