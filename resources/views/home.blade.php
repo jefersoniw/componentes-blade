@@ -9,4 +9,9 @@
     </x-slot>
 
     <h2>Home</h2>
+
+    <div x-data>
+        <button @click="$dispatch('open1')">Open Modal</button>
+    </div>
+
 </x-layout>
