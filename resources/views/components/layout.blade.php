@@ -15,8 +15,6 @@
 <body>
     <x-header class="fs-5 mt-2" title="header" />
 
-    <x-modal />
-
     <div class="menu">
         @if (!empty($menu))
             {{ $menu }}
