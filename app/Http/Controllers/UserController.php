@@ -10,4 +10,9 @@ class UserController extends Controller
     {
         return view('user.create');
     }
+
+    public function store()
+    {
+        dd('store');
+    }
 }
