@@ -16,6 +16,6 @@
         <x-form.input-text type="email" name="email" label="Email" placeholder="Email..." />
         <x-form.input-text type="password" name="password" label="Password" placeholder="Password..." />
 
-        <button type="submit">Create</button>
+        <x-form.button label="Create Co" />
     </x-form>
 </x-layout>
