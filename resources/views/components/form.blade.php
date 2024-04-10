@@ -1,4 +1,4 @@
-<div>
+<div class="mb-3">
     <form action="{{ $action }}" method="{{ $method }}">
         @csrf
 
