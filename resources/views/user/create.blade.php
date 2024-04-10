@@ -1,5 +1,9 @@
 <x-layout titulo="Create User Page">
 
+    <x-alert alert="primary">
+        Sucesso alert
+    </x-alert>
+
     <x-slot name="menu">
         <ul>
             <li>teste2</li>
