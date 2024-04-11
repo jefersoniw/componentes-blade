@@ -8,14 +8,27 @@ use Illuminate\View\Component;
 
 class Alert extends Component
 {
+
+    private array $colors = [
+        'green' => 'success',
+        'red' => 'danger',
+        'orange' => 'warning',
+        'blue' => 'info',
+    ];
+
     /**
      * Create a new component instance.
      */
     public function __construct(
-        public string $alert = 'success'
+        public string $color = 'green'
     )
     {
         //
+    }
+
+    public function get_color(): string
+    {
+        return $this->colors[$this->color] ?? 'success';
     }
 
     /**

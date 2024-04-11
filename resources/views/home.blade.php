@@ -14,6 +14,16 @@
         </ul>
     </x-slot>
 
+    {{-- componente normal --}}
+    <x-alert color="white">
+        Sucesso alert
+    </x-alert>
+
+    {{-- componente anonimo --}}
+    <x-alerts.flash message="teste" color="red">
+        alerta flash componnent anonimo
+    </x-alerts.flash>
+
     <h2>Home</h2>
 
     <div x-data>
