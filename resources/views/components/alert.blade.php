@@ -1,3 +1,3 @@
-<div class="alert alert-{{ $alert }}" role="alert">
+<div class="alert alert-{{ $get_color }}" role="alert">
     {{ $slot }}
 </div>
