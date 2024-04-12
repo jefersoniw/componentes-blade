@@ -20,8 +20,8 @@
     </x-alert>
 
     {{-- componente anonimo --}}
-    <x-alerts.flash message="teste" color="red">
-        alerta flash componnent anonimo
+    <x-alerts.flash :message="$message" color="red">
+        alerta flash componnent anonimo - {{ $message }}
     </x-alerts.flash>
 
     <h2>Home</h2>
